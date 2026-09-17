@@ -1,0 +1,43 @@
+# ---- Unity ----
+FinalPoster/Library/
+FinalPoster/Temp/
+FinalPoster/Obj/
+FinalPoster/obj/
+FinalPoster/Build/
+FinalPoster/Builds/
+FinalPoster/Logs/
+FinalPoster/UserSettings/
+FinalPoster/MemoryCaptures/
+FinalPoster/Recordings/
+FinalPoster/.vs/
+FinalPoster/bin/
+
+# Unity 会自动重新生成这些工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 崩溃报告
+sysinfo.txt
+*.stackdump
+
+# ---- 密钥 ----
+# Vuforia license key 不进仓库，见 VuforiaConfiguration.asset.example
+FinalPoster/Assets/Resources/VuforiaConfiguration.asset
+
+# ---- macOS / 杂项 ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.baiduyun.uploading.cfg
