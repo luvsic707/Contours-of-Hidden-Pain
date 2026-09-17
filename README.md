@@ -49,7 +49,11 @@ The license key is not committed. You need a free one of your own:
 3. Press **Play** and allow camera access when macOS asks
 4. Hold `Poster.png` in front of the webcam — printed on paper or just displayed on a second screen
 
-An Android build is included as `FinalPoster/apk1.apk` if you would rather point a phone at the poster.
+## Or just point a phone at it
+
+An Android build is on the [releases page](https://github.com/luvsic707/Contours-of-Hidden-Pain/releases/latest) — no clone, no Unity, no license key. The same file is in the tree as `FinalPoster/apk1.apk`.
+
+It is built for `armeabi-v7a` only, so recent phones that have dropped 32-bit support will refuse to install it. For a build that runs everywhere, set **Player Settings → Other Settings → Scripting Backend: IL2CPP** and **Target Architectures: ARM64**.
 
 ## Project structure
 
